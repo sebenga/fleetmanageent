@@ -1,0 +1,12 @@
+VEHCLES
+sequelize model:create --name Vehicles  --attributes vehicleLicence:string,vehicleRegister:string,vehicleChassisVIN:string,vehicleMake:string,vehicleDiskExpireyDate:date
+
+sequelize model:create --name Trailers  --attributes trailerLicence:string,trailerRegister:string,trailerChassisVIN:string,trailerMake:string,trailerDiskExpireyDate:date
+
+sequelize model:create --name FleetCards --attributes cardNumber:string,nameOnTheCard:string,cardExpireyMonthYear:date,vehicleId:string 
+
+sequelize model:create --name FleetManagementStaff --attributes staffIdNumber:string,staffFirstName:string,staffMiddleName:string,staffLastName:string,staffRole:string,staffTaxReference:string staffBargCouncilNo:string,staffPassportNo:string,staffUsername:string,staffPassWord:string
+
+
+
+
